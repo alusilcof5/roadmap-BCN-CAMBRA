@@ -240,7 +240,7 @@ const bootcampData = {
             name: "Gestionar eficientemente proyectos de desarrollo con herramientas de control de versiones",
             indicator: {
                 typeBasic: [
-                    "Uso de github, gitlab o bitbucket",
+                    "Uso de github",
                     "Conectar repo local al remoto",
                     "Uso de Gitflow methodology",
                     "Uso de Commits descriptivos",
@@ -270,33 +270,29 @@ const bootcampData = {
             }
         },
         {
-            name: ["Ser capaz de desarrollar un programa en Python"],
+            name: ["Bases de programación"],
             indicator: {
                 typeBasic: [
-                    "Uso de bucles",
-                    "Uso de condicionales",
+                    "tipos de datos",
+                    "palabras reservadas",
+                    "operadores",
+                    "controladores de flujo",
+                    "estructuras de datos",
                     "Uso de Funciones, programación funcional",
-                    "Uso de Control de errores (cláusula try/except)",
-                    "Uso de herramientas de logger",
+                    "Manejo de errores (cláusula try/except)",
                     "Uso de POO (Programación Orientada a Objetos)",
-                    "Uso de frameworks (fASTAPI, Flask, Django)",
-                    "Uso de librerias",
-                    "Uso de jupyter",
-                    "Uso de Entornos virtuales (venv, conda, virtualenv)",
-                    "Uso de Archivo de dependencias (requirements.txt)",
+                    "principios de programación y convenciones",
+                    "Uso de librerías externas",
+                
                 ],
                 typeExtra: [
-                    "Uso de decoradores",
-                    "Uso de funciones lambda",
-                    "Uso de itertools",
-                    "Uso de hilos",
-                    "Uso de métodos mágicos (__call__, __iter__, __next__)",
-                    "Desarrollo de decoradores"
+
+
                 ]
             },
             themes: {
                 typeBasic: [
-                    "Introducción a Python (tipos de datos, variables, operadores, estructuras de control)",
+                    "Introducción a JavaScript (tipos de datos, variables, operadores, estructuras de control)",
                     "Entornos virtuales (venv, conda, virtualenv)",
                     "Entornos de desarrollo IDEs (VSCode, Pycharm) & notebooks(Jupyter notebook, google colab)",
                     "POO (Programación Orientada a Objetos)",
@@ -323,25 +319,6 @@ const bootcampData = {
             }
         },
         // 
-        {
-            name: "Implementar un sistema de webscrapping para la recopilación de datos",
-            indicator: {
-                typeBasic: [
-                    "Uso de Scraper",
-                    "Uso de tareas Cron",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Estructura de un documento HTML (DOM y conección a Javascript)",
-                    "Requests, API REST",
-                    "Scrappy",
-                    "Selenium",
-                    "BeautifulSoup",
-                    "Cronjob"
-                ]
-            }
-        },
         // 
         {
             name: "Diseñar y gestionar bases de datos de manera eficiente",
@@ -395,190 +372,35 @@ const bootcampData = {
                 ]
             }
         },
-        {
-            name: "Desplegar y gestionar aplicaciones en entornos de nube",
-            indicator: {
-                typeBasic: [
-                    "Uso de Docker",
-                    "Uso de un servicio de cloud (Azure, AWS, etc)",
-                    "Uso de plataformas de deployment (render, etc)"
-                ],
-                typeExtra: [
-                    "Uso avanzado de herramientas de orquestación de contenedores (Kubernetes, Docker Swarm)",
-                    "Implementación de pipelines CI/CD para automatización de despliegues (Jenkins, GitLab CI, GitHub Actions)",
-                    "Desarrollo de arquitecturas de microservicios con Kafka como backbone de comunicación"
+        // {
+        //     name: "Desplegar y gestionar aplicaciones en entornos de nube",
+        //     indicator: {
+        //         typeBasic: [
+        //             "Uso de Docker",
+        //             "Uso de un servicio de cloud (Azure, AWS, etc)",
+        //             "Uso de plataformas de deployment (render, etc)"
+        //         ],
+        //         typeExtra: [
+        //             "Uso avanzado de herramientas de orquestación de contenedores (Kubernetes, Docker Swarm)",
+        //             "Implementación de pipelines CI/CD para automatización de despliegues (Jenkins, GitLab CI, GitHub Actions)",
+        //             "Desarrollo de arquitecturas de microservicios con Kafka como backbone de comunicación"
 
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Introducción a docker (contenedores, imágenes, volúmenes, redes)",
-                    "Despliegue y gestión de microservicios en la nube (Docker Compose)"
-                ],
-                typeExtra: [
-                    "Implementación de Kafka en microservicios con Docker y Kubernetes",
-                    "Optimización de costos y gestión de recursos en la nube",
-                    "Cloud Computing",
-                    "HDFS",
-                    "MLOps"
-                ]
-            }
-        },
-        {
-            name: "Evaluar conjuntos de datos utilizando herramientas de análisis y de visualización de datos",
-            indicator: {
-                typeBasic: [
-                    "Uso y gestión de formato .csv",
-                    "Limpieza y preprocesado de datos",
-                    "Visualización de datos (seaborn, matplotlib, plotly)",
-                    "Análisis exploratorio detallado (EDA)",
-                    "Uso de librerías que permitan el desarrollo de paneles de visualización de datos (dash, streamlit, gradio)",
-                    "Uso de técnicas de preprocesado  (normalización, escalado, label encoder, one hot encoder)",
-                    "Uso de técnicas avanzadas de limpieza de datos (eliminación de valores atípicos, imputación de valores faltantes)"
-                ],
-                typeExtra: [
-                    "Uso de técnicas de reducción de dimensionalidad (PCA, t-SNE)",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Estadística en el análisis de datos",
-                    "Data Cleaning con Python",
-                    "Tipos de gráficas en analisis de datos",
-                    "ETLs",
-                    "PowerBi y alternativas",
-                    "Storytelling de datos"
-                ],
-                typeExtra: [
-                    "Implementación de pipelines automatizados para limpieza y preprocesamiento de datos con herramientas como scikit-learn o TensorFlow Data",
-                ]
-            }
-        },
-        {
-            name: "Aplicar algoritmos de aprendizaje automático según el problema, identificando y resolviendo problemas clásicos de inteligencia artificial",
-            indicator: {
-                typeBasic: [
-                    "Seleccionar las variables que son útiles y las que no lo son",
-                    "Reconocer si es un problema de regresión o de clasificación",
-                    "Separación de datos en train/test",
-                    "Entrenar un modelo simple de ML  (SVM, Logistic Regression, Linear Regression, Decission Tree, Naive Bayes)",
-                    "Reconocer un caso de aprendizaje no supervisado",
-                    "Aplicar modelos de clustering",
-                    "Uso modelos de ensemble (RandomForest, GradientBoosting, AdaBoost, XGBoost, LightGBM)",
-                    "Uso de técnicas avanzadas de visualización como heatmaps, pairplots, y 3D visualizations",
-                    "Introducción a estadística para Machine Learning"
-                ],
-                typeExtra: [
-                    "Análisis de series temporales y visualización con Plotly y seaborn",
-                    "Optimización del rendimiento de las herramientas de visualización para grandes volúmenes de datos (técnicas de muestreo y reducción de dimensionalidad)"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Humanismo y ética de la IA",
-                    "ML Supervisado - Algoritmos clasicos",
-                    "Ingeneria de Caracteristicas",
-                    "ML No Supervisado - Algoritmos clásicos",
-                    "Estadística en Machine Learning",
-                    "Etapas de un proyecto de ML",
-                    "Validación Cruzada",
-                    "Perceptrón",
-
-                ],
-                typeExtra: [
-                    "Implementación de pipelines de preprocesamiento y análisis con scikit-learn y pandas",
-                ]
-            }
-        },
-        {
-            module: "Módulo 3",
-            name: "Modificar los parámetros y componentes de la inteligencia artificial para mejorar su rendimiento",
-            indicator: {
-                typeBasic: [
-                    "Optimización de Hiperparámetros",
-                    "Regularización",
-                    "Conocer las métricas de evaluación típicas de cada tipo de modelo (MSE, Recall, F1, etc)",
-                    "Desempeño en Datos Desbalanceados",
-                ],
-                typeExtra: [
-                    "Entender los componentes de una red neuronal y su funcionamiento (funciones de activacion, descenso de gradiente, backpropagation, etc",
-                    "Transfer Learning",
-                    "Data Augmentation",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Uso de redes Neuronales",
-                    "Redes Neuronales Convolucionales",
-                    "PCA: reducción de la dimensionalidad",
-                    "Autoencoders",
-                    "Algoritmo de Backpropagation",
-                    "Descenso del Gradiente y optimizadores",
-                    "Tecnicas Ensamble",
-                ],
-                typeExtra: [
-                    "Modelos de Difusión",
-                ]
-            }
-        },
-        {
-            module: "Módulo 3",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Procesamiento del Lenguaje Natural",
-            indicator: {
-                typeBasic: [
-                    "Uso de redes Neuronales Recurrentes (LSTM, GRU)",
-                    "Uso de embeddings",
-                    "Uso de PCA",
-                    "Uso de Autoencoders",
-                    "Uso de Expresiones regulares",
-                    "Uso de técnicas de Data Augmentation"
-                ],
-                typeExtra: [
-                    "Finetuning de LLMs"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Pytorch",
-                    "Redes Recurrentes (LSTM, GRU)",
-                    "TensorFlow y Keras",
-                    "Data augmentation",
-                    "GANs"
-                ],
-                typeExtra: [
-                    "Modelos de Difusión",
-                    "Aprendizaje por Reforzamiento"
-                ]
-            }
-        },
-        {
-            module: "Módulo 3",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Computer Vision",
-            indicator: {
-                typeBasic: [
-                    "Uso de técnicas de preprocesamiento de imágenes",
-                    "Uso de técnicas de segmentación de imágenes",
-                    "Uso de técnicas de detección de bordes",
-                    "Uso de técnicas de reconocimiento de patrones",
-                    "Uso de técnicas de clasificación de imágenes",
-                ],
-                typeExtra: [
-                    "Uso de técnicas de segmentación semántica",
-                    "Uso de técnicas de detección de objetos en tiempo real"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Transfer Learning en Visión por Computadora",
-                    "Técnicas de Aumento de Datos en Imágenes",
-                    "Detección de Objetos con YOLO y SSD",
-                    "Segmentación de Imágenes con U-Net"
-                ],
-                typeExtra: [
-                    "Redes Generativas Antagónicas (GANs) en Visión por Computadora",
-                ]
-            }
-        }
+        //         ]
+        //     },
+        //     themes: {
+        //         typeBasic: [
+        //             "Introducción a docker (contenedores, imágenes, volúmenes, redes)",
+        //             "Despliegue y gestión de microservicios en la nube (Docker Compose)"
+        //         ],
+        //         typeExtra: [
+        //             "Implementación de Kafka en microservicios con Docker y Kubernetes",
+        //             "Optimización de costos y gestión de recursos en la nube",
+        //             "Cloud Computing",
+        //             "HDFS",
+        //             "MLOps"
+        //         ]
+        //     }
+        // },
     ]
 }
 
@@ -807,7 +629,7 @@ function generateAcordion() {
                     data-bs-target="#${collapseId}" 
                     aria-expanded="${expanded}" 
                     aria-controls="${collapseId}">
-                    <span><i class="bi bi-lightbulb-fill"></i> Competencia:  ${competency.name}</span>
+                    <span><i class="bi bi-lightbulb-fill"></i>  ${competency.name}</span>
                 </button>
             </h2>
             <div id="${collapseId}" class="accordion-collapse collapse ${showClass}" aria-labelledby="${headingId}" data-bs-parent="#accordionExample">

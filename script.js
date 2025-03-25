@@ -24,19 +24,19 @@ const bootcampData = {
         },
         {
             type: "Competencia",
-            name: "Prototipado web: Figma",
+            name: "Prototipado ",
             start: 1,
             end: 24,
         },
         {
             type: "Competencia",
-            name: "Maquetación web: HTML",
+            name: "Maquetación ",
             start: 2,
             end: 24,
         },
         {
             type: "Competencia",
-            name: "Estilos web: CSS",
+            name: "Estilos",
             start: 2,
             end: 24,
         },
@@ -48,13 +48,13 @@ const bootcampData = {
         },
         {
             type: "Competencia",
-            name: "Control de version : git y github",
+            name: "Control de versiones : git y github",
             start: 3,
             end: 34,
         },
         {
             type: "Competencia",
-            name: "Principios de programación: JavaScript",
+            name: "Principios de programación",
             start: 4,
             end: 24,
         },
@@ -165,13 +165,370 @@ const bootcampData = {
         }
     ],
     links: {
-        googleCalendar: "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&src=Y18zMDQ4MjU4NDYxYWE5MTk2YzE3YjgyNDc4OTk5NDk2MzNjNzMzZDk4MzhlZjFhZTQ1YzMzZTQ5ZDRkZGU5ZGZmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4",
+        googleCalendar: "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&src=ZmFjdG9yaWEuZjVfZGV2XzFyZm",
         zoom: "https://us02web.zoom.us/j/84219607621",
-        classroom: "https://classroom.google.com/c/NzQ1NDc4OTU1MzQ4?cjc=qhpavje",
+        classroom: "https://classroom.google.com/",
         discord: "https://discord.gg/u54GR4D3",
         github: "https://github.com/Factoria-F5-dev"
     },
     competencies: [
+
+       {
+         name: "Prototipado web",
+        metric: ["Desarrollo del Diseño de producto"],
+        indicator: {
+            typeBasic: [
+                "Uso de la herramienta de diseño Figma",
+                "Uso de wireframes",
+                "Uso de diseño responsivo",
+                "Uso de prototipado de alta fidelidad",
+            ],
+            typeExtra: [
+                "Uso de diseño de experiencia de usuario (UX)",
+                "Uso de diseño de interfaz de usuario (UI)",
+                "Uso de diseño de interacción",
+            ],
+                           
+        },
+        themes: {
+            typeBasic: [
+                "Introduccion al diseño y prototipado web con Figma",
+                "Introduccion a UX/UI",
+                "Diseño responsivo y atomic design",
+
+            ],
+            typeExtra: [
+                "Estudio de usuario (UX)",
+                "Accesibilidad web",
+                "Prototipado interactivo",
+            ],
+
+            }
+        },
+        {
+            name: "Maquetación y Diseño web",
+            indicator: {
+                typeBasic: [
+                    "Uso de HTML",
+                    "Uso de etiquetas semánticas",
+                    "Uso de CSS",
+                    "Uso de Flexbox",
+                    "Uso de Grid",
+                    "Uso de Media queries",
+                    "Uso de Diseño responsive",
+                    
+                ],
+                typeExtra: [
+                    "Uso de Preprocesadores",
+                    "Uso de Tailwind",
+                    "Uso de Diseño web accesible",
+                ],
+            },
+            themes: {
+                typeBasic: [
+                    "introducción a maquetación web: HTML semántico",
+                    "introducción al estilo web: Pilares de CSS",
+                    "Contenedores: Flexbox y Grid",
+                    "Diseño responsive: Media queries",
+                ],
+                typeExtra: [
+                    "Preprocesadores",
+                    "Tailwind",
+                    "Diseño web accesible",
+                ]
+            }
+        },
+        {
+            name: "Control de versiones",
+            indicator: {
+                typeBasic: [
+                    "Uso de git",
+                    "Uso de github",
+                    "Uso de gitflow",
+                    "Uso de commits descriptivos",
+                    "Uso de ramas",
+                    "Uso de nomenclatura en commits",
+                    "Uso de nomenclatura en ramas",
+                ],
+                typeExtra: [
+                    "Uso de conventional commits",
+                    "Uso de issues y pull requests",
+                    "Uso de etiquetas",
+                ]
+            },
+        },
+        {
+            name: ["Bases de programación"],
+            indicator: {
+                typeBasic: [
+                    "Deteccion de tipos de datos",
+                    "Uso palabras reservadas",
+                    "Uso de operadores",
+                    "Uso de controladores de flujo",
+                    "Uso de estructuras de datos",
+                    "Uso de la consola",
+                    "Uso de Funciones",
+                    "Uso del formato JSON",
+                   // "Manejo de errores (cláusula try/except)",
+                    "Uso de POO (Programación Orientada a Objetos)",
+                
+                ],
+                typeExtra: [
+                    "Uso de los principios de programación y convenciones",
+                    "Uso de librerías externas",
+                    "Documentación de código",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Introducción a JavaScript (tipos de datos, variables, operadores, estructuras de control)",
+                    "Manipulación del DOM",
+                    "Eventos",
+                    "Funciones",
+                    "POO (Programación Orientada a Objetos)",
+                    "Manejo de errores",
+                    "Librerías externas",
+                ],
+                typeExtra: [
+                    "Web components",
+                    "Documentación de código",
+                    "Manejo de logs",
+                ]
+            }
+        },
+        {
+            name: "Peticiones HTTP",
+            indicator: {
+                typeBasic: [
+                    "Uso de Fetch",
+                    "Uso de Promesas",
+                    "Uso de asincronismo",
+                    "Uso de métodos HTTP",
+                    "Uso de APIs",
+                    "Uso de JSON",
+                    "Uso de variables de entorno",
+                    "Uso de manejo de errores",
+                ],
+                typeExtra: [
+                    "Uso de Axios",
+                    "Uso de cookies",
+                    "Uso de localStorage",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Fetch y promesas: asincronia en Js",
+                    "Métodos HTTP",
+                    "Formato JSON",
+                    "Json Server y Postman",
+                    "APIs",
+                ],
+                typeExtra: [
+                    "Axios",
+                    "Cookies y localStorage",
+                ]
+            }
+        },
+        {
+            name: "Testing para garantizar la calidad del software",
+            indicator: {
+                typeBasic: [
+                    "Uso de Test Unitarios",
+                    "Uso de Test de Integración",
+                    "Uso de TDD"
+                ],
+                typeExtra: [
+                    "Manejo de la covertura de código",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Test Unitarios (jest, vitest)",
+                    "Test de Integración (supertest)",
+                    "Test driven development (TDD)",
+                ],
+                typeExtra: [
+                    "Mocking y pruebas con dependencias externas",
+                    "testing E2E",
+                ]
+            }
+        },
+        {
+            name: "Desarrollo de aplicaciones Frontend",
+            indicator: {
+                typeBasic: [
+                    "Uso de React",
+                    "Uso de una buena estructuración de carpetas",
+                    "Uso de una buena componetización", 
+                    "Uso de props",
+                    "Uso de React Hooks useSatate, useEffect",
+                    "Uso de React Router",
+                    "Uso de Contexto",
+                    "Uso de React Testing Library",
+                    "Uso de apis externas para la gestión de datos",
+                    "Uso de Axios",
+                    "Uso de variables de entorno",
+                ],
+                typeExtra: [
+                    "Uso de Zustand",
+                    "Uso de Next.js",
+                    "Uso de Storybook",
+                    "Uso de TypeScript",
+                    "Uso de una librería de estilos (taildwind, material-ui)",
+                ],
+            },
+            themes: {
+                typeBasic: [
+                    "Introducción a React",
+                    "Componentes y Props",
+                    "Hooks",
+                    "Router",
+                    "Context",
+                    "Testing",
+                    "APIs",
+                ],
+                typeExtra: [
+                    "Zustand",
+                    "Next.js",
+                    "Storybook",
+                    "TypeScript",
+                    "Librerías de estilos",
+                ]
+            }
+        },
+        {
+            name: "Diseñar y gestionar bases de datos de manera eficiente",
+            indicator: {
+                typeBasic: [
+                    "Uso de Modelado de datos",
+                    "Uso del lenguaje SQL",
+                    "Uso de bases de datos relacionales",
+                ],
+                typeExtra: [
+                    "Uso de bases de datos no relacionales",
+                    "Implementación de técnicas de seguridad en bases de datos",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Bases de datos relacionales (sql, mysql, postgresql)",
+                    "ORM",
+                    "Diagrama ER",
+                ],
+                typeExtra: [
+                    "Bases de datos no relacionales (mongoDB)",
+                    "Seguridad en bases de datos",
+                    "Migración y actualización de bases de datos: Estrategias y mejores prácticas"
+                ]
+            }
+        },
+        {
+            name: "Desarrollo de aplicaciones Backend",
+            indicator: {
+                typeBasic: [
+                    "Uso de typeScript",
+                    "Uso de Framework Express",
+                    "Uso de una buena estructuración de carpetas",
+                    "Uso de middlewares",
+                    "Uso de rutas",
+                    "Uso de controladores",
+                    "Uso de servicios",
+                    "Uso de bases de datos",
+                    "Uso de ORM",
+                    "Uso de Validadores",
+                    "Uso de variables de entorno",
+                    "Uso de manejo de errores",
+                    "Uso de Testing",
+                    "Uso de Documentación",
+                ],
+
+                },
+            themes: {
+                typeBasic: [
+                    "Bases de datos relacionales",
+                    "Introducción a Express",
+                    "Middlewares",
+                    "Rutas, Controladores, Modelos y Servicios",
+                    "ORM, Validadores y manejo de errores",
+                    "Testing",
+                    "Documentación",
+                ],
+                typeExtra: [
+                    "Bases de datos no relacionales",
+                    "Documentación",
+                    "Manejo de logs",
+                ]
+            },
+        },
+        {
+            name: "Desarrollo Fullstack",
+            indicator: {
+                typeBasic: [
+                    "Uso de una buena estructuración de carpetas",
+                    "Uso de una buena documentacion y naming",
+                    "Uso de encriptación de contraseñas",
+                    "Uso de tokenización",
+                    "Uso de gestión de sesiones",
+                    "Uso de variables de entorno",
+                    "Uso de manejo de errores",
+
+                ],
+                typeExtra: [
+                    "Uso de Zustand",
+                    "Uso de despliegue de aplicaciones",
+                    "Uso de Next.js",
+                    "Uso de Storybook",
+                    "Uso de TypeScript",
+                    "Uso de testing E2E",
+                ],
+            },
+            themes: {
+                typeBasic: [
+                    "Encriptación y tokenización: bycript y JWT",
+                    "Gestión de sesiones, Contexto Y localStorage",
+                    "Variables de entorno y manejo de errores",
+                    "Documentación",
+                ],
+                typeExtra: [
+                    "Zustand",
+                    "Despliegue de aplicaciones",
+                    "Next.js",
+                    "Storybook",
+                    "TypeScript",
+                    "Testing E2E",
+                ]
+            }
+
+        },
+        // 
+        // 
+        {
+            name: "Automatización de procesos de desarrollo",
+            indicator: {
+                typeBasic: [
+                    "Uso de Docker",
+                    "Uso de Docker Compose",
+                    "Uso de Github Actions CI, CD",
+                    "Uso de Integración de Docker con Github Actions",
+                ],
+                typeExtra: [
+                    "Uso de Implementación de Kafka en microservicios con Docker y Kubernetes",
+                    "Uso de Optimización de costos y gestión de recursos en la nube",
+                ]
+            },
+                themes: {
+                typeBasic: [
+                    "Introducción a docker (contenedores, imágenes, volúmenes, redes)",
+                    "Despliegue y gestión de microservicios en la nube (Docker Compose)",
+                    "Github Actions CI, CD",
+                    "Integración de Docker con Github Actions",
+                ],
+                typeExtra: [
+                    "Implementación de Kafka en microservicios con Docker y Kubernetes",
+                    "Optimización de costos y gestión de recursos en la nube",
+                ]
+            }
+        },
         {
             name: "Gestionar equipos de forma eficiente",
             metric: ["Planificación y gestión del proyecto"],
@@ -220,172 +577,8 @@ const bootcampData = {
                     "Uso de herramientas de diseño (Canva, Figma, etc.)",
                 ]
             }
-        },
-        {
-            name: "Gestionar eficientemente proyectos de desarrollo con herramientas de control de versiones",
-            indicator: {
-                typeBasic: [
-                    "Uso de github",
-                    "Conectar repo local al remoto",
-                    "Uso de Gitflow methodology",
-                    "Uso de Commits descriptivos",
-                    "Uso apropiado de ramas",
-                    "Uso de Nomenclatura en commits",
-                    "Uso de Nomenclatura en ramas",
-                ],
-                typeExtra: [
-                    "Integración de github actions CI/CD",
-                    "Uso de SonarQube, ESLint",
-                    "Uso de Dependabot",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Sistemas operativos (Windows, Linux, Mac)",
-                    "Terminal unix (¿Unix está en todos los sistemas operativos?)",
-                    "Git vs github",
-                    "Gitflow",
-                ],
-                typeExtra: [
-                    "Git actions CI/CD",
-                    "Monitoreo de código y calidad con herramientas de integración continua (SonarQube, ESLint)",
-                    "Manejo de versiones de dependencias con herramientas como Dependabot",
-                    "Manejo de logs",
-                ]
-            }
-        },
-        {
-            name: ["Bases de programación"],
-            indicator: {
-                typeBasic: [
-                    "tipos de datos",
-                    "palabras reservadas",
-                    "operadores",
-                    "controladores de flujo",
-                    "estructuras de datos",
-                    "Uso de Funciones, programación funcional",
-                    "Manejo de errores (cláusula try/except)",
-                    "Uso de POO (Programación Orientada a Objetos)",
-                    "principios de programación y convenciones",
-                    "Uso de librerías externas",
-                
-                ],
-                typeExtra: [
-
-
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Introducción a JavaScript (tipos de datos, variables, operadores, estructuras de control)",
-                    "Entornos virtuales (venv, conda, virtualenv)",
-                    "Entornos de desarrollo IDEs (VSCode, Pycharm) & notebooks(Jupyter notebook, google colab)",
-                    "POO (Programación Orientada a Objetos)",
-                    "Programación funcional",
-                    "Heramientas de logger",
-                    "IOT",
-                    "Introducción a redes y protocolos de comunicación",
-                    "Api rest",
-                    "CRUD",
-                    "Frameworks (fASTAPI, Flask, Django)",
-                    "Clean code (SOLID, DRY, KISS)",
-                    "Patrones de Diseño",
-                    "Regex",
-
-                ],
-                typeExtra: [
-                    "Desarrollo de decoradores",
-                    "Métodos mágicos",
-                    "Hilos en python",
-                    "Itertools",
-                    "Protocolo SSH",
-                    "Cross-site-origin (CORS)",
-                ]
-            }
-        },
-        // 
-        // 
-        {
-            name: "Diseñar y gestionar bases de datos de manera eficiente",
-            indicator: {
-                typeBasic: [
-                    "Uso de Modelado de datos",
-                    "Uso de Normalización de datos"
-                ],
-                typeExtra: [
-                    "Implementación de técnicas de seguridad en bases de datos",
-                    "Implementación de bases de datos en la nube"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Bases de datos relacionales (sql, mysql, postgresql)",
-                    "Bases de datos no relacionales (mongo, firebase) & bases de datos vectoriales",
-                    "ORM/ODM",
-                    "Diagrama ER",
-                    "Normalización de datos"
-                ],
-                typeExtra: [
-                    "Diseño y gestión de bases de datos de alta disponibilidad y recuperación ante desastres",
-                    "Migración y actualización de bases de datos: Estrategias y mejores prácticas"
-                ]
-            }
-        },
-        {
-            name: "Implementar tests para garantizar la calidad del software",
-            indicator: {
-                typeBasic: [
-                    "Uso de Test Unitarios",
-                    "Uso de Test de Integración",
-                    "Uso de TDD"
-                ],
-                typeExtra: [
-                    "Covertura del 80% de código",
-                    "Uso de Pruebas de aceptación y validación de funcionalidades (Test de Aceptación del Usuario - UAT)",
-                    "Uso de Pruebas de compatibilidad (cross-browser, dispositivos, versiones)"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Test Unitarios (pytest, unittest)",
-                    "Test de Integración",
-                    "Test driven development (TDD)",
-                ],
-                typeExtra: [
-                    "Pruebas de integración continua y despliegue continuo (CI/CD)",
-                    "Mocking y pruebas con dependencias externas (mockito, pytest-mock WireMock)"
-                ]
-            }
-        },
-        // {
-        //     name: "Desplegar y gestionar aplicaciones en entornos de nube",
-        //     indicator: {
-        //         typeBasic: [
-        //             "Uso de Docker",
-        //             "Uso de un servicio de cloud (Azure, AWS, etc)",
-        //             "Uso de plataformas de deployment (render, etc)"
-        //         ],
-        //         typeExtra: [
-        //             "Uso avanzado de herramientas de orquestación de contenedores (Kubernetes, Docker Swarm)",
-        //             "Implementación de pipelines CI/CD para automatización de despliegues (Jenkins, GitLab CI, GitHub Actions)",
-        //             "Desarrollo de arquitecturas de microservicios con Kafka como backbone de comunicación"
-
-        //         ]
-        //     },
-        //     themes: {
-        //         typeBasic: [
-        //             "Introducción a docker (contenedores, imágenes, volúmenes, redes)",
-        //             "Despliegue y gestión de microservicios en la nube (Docker Compose)"
-        //         ],
-        //         typeExtra: [
-        //             "Implementación de Kafka en microservicios con Docker y Kubernetes",
-        //             "Optimización de costos y gestión de recursos en la nube",
-        //             "Cloud Computing",
-        //             "HDFS",
-        //             "MLOps"
-        //         ]
-        //     }
-        // },
+        }
+        
     ]
 }
 

@@ -18,7 +18,7 @@ const bootcampData = {
         // },
         {
             type: "Proyecto",
-            name: "Favorite Things | <i class='bi bi-person-fill'></i>",
+            name: " Web estática | <i class='bi bi-person-fill'></i>",
             start: 1,
             end: 2,
         },
@@ -42,13 +42,13 @@ const bootcampData = {
         },
         {
             type: "Proyecto",
-            name: "Toquen el Dom | <i class='bi bi-people-fill'></i>",
+            name: " Web dinámica | <i class='bi bi-people-fill'></i>",
             start: 3,
             end: 5,
         },
         {
             type: "Competencia",
-            name: "Control de versiones : git y github",
+            name: "Control de versiones",
             start: 3,
             end: 34,
         },
@@ -60,16 +60,10 @@ const bootcampData = {
         },
         {
             type: "Competencia",
-            name: "Manipulación del DOM",
+            name: "Manipulación del DOM y eventos",
             start: 5,
             end: 24,
 
-        },
-        {
-            type: "Competencia",
-            name: "Eventos",
-            start: 5,
-            end: 24,
         },
         {
             type: "Proyecto",
@@ -79,25 +73,25 @@ const bootcampData = {
         },
         {
             type: "Competencia",
-            name: "peticiones HTTP",
+            name: " Peticiones HTTP",
             start: 6,
             end: 24,
         },
         {
             type: "Proyecto",
-            name: "APP React Museum | <i class='bi bi-people-fill'></i>",
+            name: " APP React | <i class='bi bi-people-fill'></i>",
             start: 8,
             end: 11,
         },
         {
             type: "Competencia",
-            name: "LibFramework: React",
+            name: "Framework y librerías: Frontend",
             start: 8,
             end: 24,
         },
         {
             type: "Competencia",
-            name: "testing: vitest y testing library",
+            name: "Testing: Frontend",
             start: 9,
             end: 24,
 
@@ -105,7 +99,7 @@ const bootcampData = {
 
         {
             type: "Proyecto",
-            name: "API Express Museum | <i class='bi bi-people-fill'></i>",
+            name: " API Express | <i class='bi bi-people-fill'></i>",
             start: 12,
             end: 16,
         },
@@ -117,13 +111,13 @@ const bootcampData = {
         },
         {
             type: "Competencia",
-            name: "Frameworks Back: Express",
+            name: "Framework y librerías: Backend",
             start: 13,
             end: 24,
         },
         {
             type: "Competencia",
-            name: "Desarrollo con TDD: Jest + supertest",
+            name: "Testing: Backend y Desarrollo con TDD",
             start: 13,
             end: 24,
         },
@@ -135,26 +129,14 @@ const bootcampData = {
         },
         {
             type: "Proyecto",
-            name: "fullstack | <i class='bi bi-people-fill'></i>",
+            name: " Fullstack | <i class='bi bi-people-fill'></i>",
             start: 17,
             end: 19,
         },
         {
             type: "Competencia",
-            name: "encriptación de contraseñas",
+            name: "Seguridad y Autenticación de Usuarios",
             start: 17,
-            end: 24,
-        },
-        {
-            type: "Competencia",
-            name: "tokenización",
-            start: 17,
-            end: 24,
-        },
-        {
-            type: "Competencia",
-            name: "gestion de sesiones",
-            start: 18,
             end: 24,
         },
         {
@@ -461,7 +443,7 @@ const bootcampData = {
             },
         },
         {
-            name: "Desarrollo Fullstack",
+            name: "Desarrollo Fullstack: Seguridad y Autenticación de Usuarios",
             indicator: {
                 typeBasic: [
                     "Uso de una buena estructuración de carpetas",
@@ -484,7 +466,7 @@ const bootcampData = {
             },
             themes: {
                 typeBasic: [
-                    "Encriptación y tokenización: bycript y JWT",
+                    "Encriptación y tokenización: bcrypt y JWT",
                     "Gestión de sesiones, Contexto Y localStorage",
                     "Variables de entorno y manejo de errores",
                     "Documentación",
@@ -764,7 +746,7 @@ function setGantt() {
 
             lastEnd = item.end;
 
-            let row = `<tr><td class="label ${colorClass}">${icon} ${item.name}</td>`;
+            let row = `<tr><td class="label ${colorClass} stack-col">${icon} ${item.name}</td>`;
 
             for (let i = 1; i <= weeks; i++) {
                 if (i >= item.start && i <= item.end) {

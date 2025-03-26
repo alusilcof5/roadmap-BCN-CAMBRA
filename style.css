@@ -46,6 +46,7 @@ body {
     /* ¿porqué da prioridad a el color de bootstrap? */
     /* color:var(--principal-3) !important; */
     --bs-nav-link-color-hover: var(--principal-3);
+    flex-direction: column;
 }
 
 .nav-title {
@@ -77,6 +78,22 @@ body {
 .card {
     height: 100%;
 }
+
+ /* infografía */
+
+ .info-pic-desktop {
+    display: none; /* Oculta por defecto */
+  }
+  
+  /* Mostrar la imagen de escritorio a partir de lg (≥992px) */
+  @media (min-width: 992px) {
+    .info-pic-desktop {
+      display: block; /* Muestra en escritorio */
+    }
+    .info-pic-mobile {
+      display: none; /* Oculta la imagen de móvil */
+    }
+  }
 
 
 .gantt-container {
@@ -178,6 +195,25 @@ body {
     z-index: 2;
 }
 
+
+
+.stack-col {
+    white-space: normal;      
+    word-break: break-word;
+    box-shadow: inset -3px 0 1px var(--complementario-1-extra-light);
+
+
+
+  
+  }
+  
+  @media (max-width: 768px) {
+    .stack-col {
+      width: 15%; 
+    }
+  }
+
+
 .icon {
     margin-right: 5px;
 }
@@ -203,8 +239,39 @@ body {
      background-color: rgba(220, 53, 69, 0.3);
  }
 
+ /* acordeon */
+
  .accordion-item:first-of-type .accordion-button, .accordion-button:not(.collapsed) {
         background-color: var(--complementario-2);
  }
 
+ 
+.accordion-body {
+    overflow-x: auto; 
+  }
+  
+  .accordion-body ul {
+    padding-left: 1rem; 
+    margin: 0; 
+  }
+  
+  .list-inline {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 0.5rem; 
+  }
+  
 
+  .badge {
+    white-space: normal; 
+    word-break: break-word;
+  }
+  
+
+  
+  @media (max-width: 576px) {
+    .accordion-body {
+      padding: 0.5rem; /* Reduce padding en dispositivos pequeños */
+    }
+  }
+  

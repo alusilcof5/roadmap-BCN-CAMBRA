@@ -485,29 +485,30 @@ const bootcampData = {
         // 
         // 
         {
-            name: "Automatización de procesos de desarrollo",
-            indicator: {
-                typeBasic: [
-                    "Uso de Docker",
-                    "Uso de Docker Compose",
-                    "Uso de Github Actions CI, CD",
-                    "Uso de Integración de Docker con Github Actions",
-                ],
-                typeExtra: [
-                    "Uso de Implementación de Kafka en microservicios con Docker y Kubernetes",
-                    "Uso de Optimización de costos y gestión de recursos en la nube",
-                ]
-            },
+            name: "DevOps:Automatización de procesos",
+            // indicator: {
+            //     typeBasic: [
+            //         "Uso de Docker",
+            //         "Uso de Docker Compose",
+            //         "Uso de Github Actions CI, CD",
+            //         "Uso de Integración de Docker con Github Actions",
+            //     ],
+            //     typeExtra: [
+            //         "Uso de Implementación de Kafka en microservicios con Docker y Kubernetes",
+            //         "Uso de Optimización de costos y gestión de recursos en la nube",
+            //     ]
+            // },
                 themes: {
                 typeBasic: [
                     "Introducción a docker (contenedores, imágenes, volúmenes, redes)",
-                    "Despliegue y gestión de microservicios en la nube (Docker Compose)",
+                    "Gestión de servicios : orquestación con docker-compose",
                     "Github Actions CI, CD",
                     "Integración de Docker con Github Actions",
+                    "Despliegue de aplicaciones en la nube",
                 ],
                 typeExtra: [
-                    "Implementación de Kafka en microservicios con Docker y Kubernetes",
-                    "Optimización de costos y gestión de recursos en la nube",
+                    "Mensajería y eventos: RabbitMQ, Kafka",
+                    "Observabilidad y monitorización",
                 ]
             }
         },

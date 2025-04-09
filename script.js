@@ -23,16 +23,23 @@ const bootcampData = {
            
         },
         {
-            "type": "Competencia",
-            "name": "Modelo de Caja y Layout Básico, Flexbox, Diseño Responsivo - Viewport y Media Queries",
+            "type": "Proyecto",
+            "name": "Proyecto Final de HTML y CSS",
             "start": 2,
             "end": 2
+        },
+
+        {
+            "type": "Competencia",
+            "name": "Modelo de Caja y Layout Básico, Flexbox, Diseño Responsivo - Viewport y Media Queries",
+            "start": 3,
+            "end": 3
         },
         {
             "type": "Competencia",
             "name": "Introducción a Figma y Diseño de Interfaz",
-            "start": 2,
-            "end": 2
+            "start": 3,
+            "end": 3
         },
         {
             "type": "Competencia",
@@ -55,26 +62,26 @@ const bootcampData = {
         {
             "type": "Competencia",
             "name": "Introducción a las Buenas Prácticas de Desarrollo Web",
-            "start": 4,
-            "end": 4
+            "start": 2,
+            "end": 2
         },
         {
             "type": "Competencia",
             "name": "Herramientas para Desarrolladores y Optimización",
-            "start": 4,
-            "end": 4
+            "start": 2,
+            "end": 2
         },
         {
             "type": "Competencia",
             "name": "Preparación para JavaScript - Conceptos Fundamentales de Programación",
-            "start": 4,
-            "end": 4
+            "start": 5,
+            "end": 5
         },
         {
             "type": "Competencia",
             "name": "Primeros Pasos con JavaScript, Estructuras de Control en JavaScript",
-            "start": 4,
-            "end": 4
+            "start": 5,
+            "end": 5
         },
         {
             "type": "Competencia",
@@ -97,15 +104,10 @@ const bootcampData = {
         {
             "type": "Proyecto",
             "name": "Proyecto Final - Planificación e Inicio",
-            "start": 5,
-            "end": 5
+            "start": 6,
+            "end": 6
         },
-        {
-            "type": "Proyecto",
-            "name": "Proyecto Final - Desarrollo de la Interacción con JavaScript",
-            "start": 5,
-            "end": 5
-        },
+        
         {
             "type": "Competencia",
             "name": "Revisión del Proyecto Final",
@@ -124,18 +126,7 @@ const bootcampData = {
             "start": 6,
             "end": 6
         },
-        {
-            "type": "Competencia",
-            "name": "Repaso General y Resolución de Dudas",
-            "start": 6,
-            "end": 6
-        },
-        {
-            "type": "Competencia",
-            "name": "Desafío Práctico Final (Opcional)",
-            "start": 6,
-            "end": 6
-        }
+        
     ],
     
 

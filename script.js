@@ -143,7 +143,7 @@ const bootcampData = {
           {
             "id": 1,
             "nombre": "Trabajo en equipo",
-            "descripcion": "Desarrollar proyectos grupales en equipo, colaborando y compartiendo responsabilidades."
+            "descripcion": "Desarrollar proyectos en equipo, colaborando y compartiendo responsabilidades."
           },
           {
             "id": 2,
@@ -173,7 +173,7 @@ const bootcampData = {
           {
             "id": 7,
             "nombre": "Desarrollo de habilidades técnicas",
-            "descripcion": "Adquirir competencias en programación, machine learning, y análisis de datos."
+            "descripcion": "Adquirir competencias en programación, HTML, CSS y JavaScript."
           },
           {
             "id": 8,

@@ -19,14 +19,50 @@ const bootcampData = {
         },
         {
             "type": "Competencia",
-            "name": "HTML, Git y GitHub, CSS - Estilizando tu página web",
+            "name": "HTML, Git y GitHub, CSS - Creando  tu  primera página web",
            
         },
+
         {
-            "type": "Proyecto",
-            "name": "Proyecto Final de HTML y CSS",
+            "type": "Competencia",
+            "name": "Herramientas para Desarrolladores",
             "start": 2,
             "end": 2
+        },
+
+        {
+            "type": "Competencia",
+            "name": "Introducción a las Buenas Prácticas de Desarrollo Web",
+            "start": 2,
+            "end": 2
+        },
+
+        {
+            "type": "Proyecto",
+            "name": "Proyecto HTML: Blog",
+            "start": 2,
+            "end": 2
+        },
+
+        {
+            "type": "Competencia",
+            "name": "Introducción a Figma y Diseño de Interfaz",
+            "start": 2,
+            "end": 2
+        },
+        
+        {
+            "type": "Competencia",
+            "name": "Diseño Responsivo con Figma y Componentes",
+            "start": 3,
+            "end": 3
+        },
+
+        {
+            "type": "Competencia",
+            "name": "Introducción a CSS",
+            "start": 3,
+            "end": 3
         },
 
         {
@@ -35,42 +71,15 @@ const bootcampData = {
             "start": 3,
             "end": 3
         },
-        {
-            "type": "Competencia",
-            "name": "Introducción a Figma y Diseño de Interfaz",
-            "start": 3,
-            "end": 3
-        },
-        {
-            "type": "Competencia",
-            "name": "Diseño Responsivo con Figma y Componentes",
-            "start": 3,
-            "end": 3
-        },
-        {
-            "type": "Competencia",
-            "name": "Revisión y Técnicas de CSS",
-            "start": 3,
-            "end": 3
-        },
+        
         {
             "type": "Proyecto",
-            "name": "Proyecto Final de HTML y CSS",
-            "start": 3,
-            "end": 3
+            "name": "Proyecto de HTML y CSS",
+            "start": 4,
+            "end": 4
         },
-        {
-            "type": "Competencia",
-            "name": "Introducción a las Buenas Prácticas de Desarrollo Web",
-            "start": 2,
-            "end": 2
-        },
-        {
-            "type": "Competencia",
-            "name": "Herramientas para Desarrolladores y Optimización",
-            "start": 2,
-            "end": 2
-        },
+        
+        
         {
             "type": "Competencia",
             "name": "Preparación para JavaScript - Conceptos Fundamentales de Programación",
@@ -79,7 +88,7 @@ const bootcampData = {
         },
         {
             "type": "Competencia",
-            "name": "Primeros Pasos con JavaScript, Estructuras de Control en JavaScript",
+            "name": "JavaScript, Estructuras de Control en JavaScript",
             "start": 5,
             "end": 5
         },
@@ -97,7 +106,7 @@ const bootcampData = {
         },
         {
             "type": "Competencia",
-            "name": "Eventos en JavaScript - Interactividad Básica",
+            "name": "JavaScript - Interactividad Básica",
             "start": 5,
             "end": 5
         },
@@ -108,12 +117,6 @@ const bootcampData = {
             "end": 6
         },
         
-        {
-            "type": "Competencia",
-            "name": "Revisión del Proyecto Final",
-            "start": 6,
-            "end": 6
-        },
         {
             "type": "Competencia",
             "name": "Presentación Final de Proyectos y Feedback",

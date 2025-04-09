@@ -17,22 +17,23 @@ const bootcampData = {
             "name": "Web estática | <i class='bi bi-person-fill'></i>",
             
         },
-        {
-            "type": "Competencia",
-            "name": "HTML, Git y GitHub, CSS - Creando  tu  primera página web",
-           
-        },
-
+        
         {
             "type": "Competencia",
             "name": "Herramientas para Desarrolladores",
             "start": 2,
             "end": 2
         },
-
         {
             "type": "Competencia",
             "name": "Introducción a las Buenas Prácticas de Desarrollo Web",
+            "start": 2,
+            "end": 2
+        },
+
+        {
+            "type": "Competencia",
+            "name": "HTML, Git y GitHub, CSS - Creando  tu  primera página web",
             "start": 2,
             "end": 2
         },

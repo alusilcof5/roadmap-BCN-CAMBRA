@@ -80,6 +80,11 @@ const bootcampData = {
             "end": 4
         },
         
+        {
+            "type": "Proyecto",
+            "name": "Web dinámica | <i class='bi bi-person-fill'></i>",
+            
+        },
         
         {
             "type": "Competencia",
@@ -114,8 +119,8 @@ const bootcampData = {
         {
             "type": "Proyecto",
             "name": "Proyecto Final - Planificación e Inicio",
-            "start": 6,
-            "end": 6
+            "start": 5,
+            "end": 5
         },
         
         {
